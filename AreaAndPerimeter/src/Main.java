@@ -1,3 +1,5 @@
+// Nazarii Goncharuk - 000367506 - CPRO 1221 - Assignment 2 - Project 5-2
+
 import java.util.Scanner;
 
 public class Main {
@@ -20,6 +22,7 @@ public class Main {
         System.exit(0);
     }
 
+    // string checking method
     public static String getChoice(Scanner sc, String prompt) {
         String number;
         while (true) {
@@ -34,7 +37,7 @@ public class Main {
         return number;
     }
 
-
+// double checking method
     public static double getDouble(Scanner sc, String prompt, double min, double max) {
         double number;
         while (true) {
